@@ -6,7 +6,7 @@ export const GlobalContext = createContext()
 // Create the provider component
 const GlobalContextProvider = ({ children }) => {
   // Base URL for backend API
-  const backendUrl = "http://localhost:4000"
+  const backendUrl = "https://taskmanager-m0x2.onrender.com"
 
   // State to manage the token, initialized from localStorage if available
   const [token, setToken] = useState(
